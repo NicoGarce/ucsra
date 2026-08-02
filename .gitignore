@@ -1,0 +1,11 @@
+# Assets and resources
+assets/
+assets/resources/
+
+# Operating system files
+Thumbs.db
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/

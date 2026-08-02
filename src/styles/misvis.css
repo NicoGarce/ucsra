@@ -1,0 +1,97 @@
+.MisVis {
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 100%;
+}
+.container > div {
+  width: 50%;
+ 
+  margin: 0 10px;
+}
+.mission,
+.vision {
+  color: black;
+  box-shadow: 5px 5px 10px #9e9c9c;
+  text-align: justify;
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.mission,
+.vision > p {
+  text-align: center;
+}
+
+.Objectives {
+  width: 100%;
+}
+
+.main-contents {
+  margin: 20px 10px;
+  box-shadow: 10px 10px 20px #9e9c9c;
+  padding: 20px;
+}
+.main-contents > li {
+  padding: 15px;
+  list-style: none;
+}
+.main-contents > ol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.main-contents > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main-contents > ul > li > span {
+  font-size: 30px;
+  font-weight: 600;
+}
+.main-contents > ul > li {
+  list-style: none;
+}
+.footer{
+  border: 1px solid black;
+}
+.main-Logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (width < 720px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .container > div {
+    width: 100%;
+    margin: 10px;
+  }
+  .mission,
+  .vision {
+    font-size: 20px;
+  }
+  .main-contents > ol {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+  }
+  .main-contents > ol > li{
+    padding: 10px;
+  }
+  .main-contents > ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-Logo > img{
+    width: 450px;
+  }
+}

@@ -1,0 +1,36 @@
+.History{
+    width: 100%;
+}
+
+.header{
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.abt-us{
+    font-size: 25px;
+    padding-left: 10px;
+    font-weight: 600;
+}
+
+.about-us{
+    padding: 30px;
+}
+.about-us > p{
+    text-align: justify;
+}
+.part-two{
+    border-top: 1px solid black;
+    padding: 30px;
+}
+.part-two > p{
+    text-align: justify ;
+}
+.part-two > p > span{
+    font-size: 22px;
+    font-weight: 600;
+}
+.footer{
+    border: 1px solid black;
+}

@@ -1,0 +1,19 @@
+.foot{
+    width: 100%;
+}
+.main-elem{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+@media (width < 720px){
+    .main-elem{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+   
+     
+}
