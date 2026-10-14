@@ -774,7 +774,7 @@ body {
   position: relative;
   width: 100%;
   overflow: hidden;
-  max-height: 380px;
+  min-height: 380px;
 }
 
 .carousel-track {
@@ -788,10 +788,11 @@ body {
   width: 100%;
   flex-shrink: 0;
   background: linear-gradient(135deg, #2d3097 0%, #4a4fc7 100%);
-  min-height: auto;
+  min-height: 380px;
   display: flex;
   align-items: center;
   position: relative;
+  padding: 10px 0;
 }
 
 /* Dark overlay for readability - removed for both slides */
@@ -814,7 +815,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 5%;
+  padding: 20px 5% 50px;
 }
 
 .carousel-slide .details {
@@ -1031,7 +1032,7 @@ body {
   .carousel-slide .contents {
   flex-direction: column;
   justify-content: center;
-  padding: 0 5%;
+  padding: 20px 5% 50px;
   }
   .carousel-slide .details {
   padding: 15px;
@@ -1128,6 +1129,11 @@ body {
 .carousel-slide:nth-child(1) .more {
   display: flex;
   margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.carousel-slide .more {
+  padding-bottom: 10px;
 }
 
 /* Responsive */
